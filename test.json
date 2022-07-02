@@ -1,0 +1,584 @@
+{
+  "0": {
+    "title": "",
+    "all": true,
+    "values": {
+      "59146": {
+        "title": "",
+        "order": 0,
+        "checked": true
+      }
+    },
+    "indicator": true
+  },
+//  города
+  "3": {
+    "title": "",
+    "all": false,
+    "values": {
+      "2018": {
+        "title": "",
+        "order": 0,
+        "checked": true
+      },
+      "2019": {
+        "title": "",
+        "order": 1,
+        "checked": false
+      },
+      "2020": {
+        "title": "",
+        "order": 2,
+        "checked": false
+      }
+    },
+    "indicator": false
+  },
+  "3301": {
+    "title": "",
+    "all": false,
+    "values": {
+      "1678127": {
+        "title": "",
+        "code": "",
+        "order": 0,
+        "checked": true
+      },
+      "70642": {
+        "title": "",
+        "code": "",
+        "order": 1,
+        "checked": false
+      },
+      "70647": {
+        "title": "",
+        "code": "",
+        "order": 2,
+        "checked": false
+      },
+      "70643": {
+        "title": "",
+        "code": "",
+        "order": 3,
+        "checked": false
+      },
+      "70644": {
+        "title": "",
+        "code": "",
+        "order": 4,
+        "checked": false
+      },
+      "70645": {
+        "title": "",
+        "code": "",
+        "order": 5,
+        "checked": false
+      },
+      "70601": {
+        "title": "",
+        "code": "",
+        "order": 6,
+        "checked": false
+      },
+      "70646": {
+        "title": "",
+        "code": "",
+        "order": 7,
+        "checked": false
+      },
+      "70648": {
+        "title": "",
+        "code": "",
+        "order": 8,
+        "checked": false
+      },
+      "70654": {
+        "title": "",
+        "code": "",
+        "order": 9,
+        "checked": false
+      },
+      "70649": {
+        "title": "",
+        "code": "",
+        "order": 10,
+        "checked": false
+      },
+      "70650": {
+        "title": "",
+        "code": "",
+        "order": 11,
+        "checked": false
+      },
+      "1657670": {
+        "title": "",
+        "code": "",
+        "order": 12,
+        "checked": false
+      },
+      "70651": {
+        "title": "",
+        "code": "",
+        "order": 13,
+        "checked": false
+      },
+      "70652": {
+        "title": "",
+        "code": "",
+        "order": 14,
+        "checked": false
+      },
+      "70661": {
+        "title": "",
+        "code": "",
+        "order": 15,
+        "checked": false
+      },
+      "70653": {
+        "title": "",
+        "code": "",
+        "order": 16,
+        "checked": false
+      },
+      "70655": {
+        "title": "",
+        "code": "",
+        "order": 17,
+        "checked": false
+      },
+      "70656": {
+        "title": "",
+        "code": "",
+        "order": 18,
+        "checked": false
+      },
+      "70657": {
+        "title": "",
+        "code": "",
+        "order": 19,
+        "checked": false
+      },
+      "70658": {
+        "title": "",
+        "code": "",
+        "order": 20,
+        "checked": false
+      },
+      "70659": {
+        "title": "",
+        "code": "",
+        "order": 21,
+        "checked": false
+      },
+      "70660": {
+        "title": "",
+        "code": "",
+        "order": 22,
+        "checked": false
+      },
+      "70583": {
+        "title": "",
+        "code": "",
+        "order": 23,
+        "checked": false
+      },
+      "70639": {
+        "title": "",
+        "code": "",
+        "order": 24,
+        "checked": false
+      },
+      "70605": {
+        "title": "",
+        "code": "",
+        "order": 25,
+        "checked": false
+      },
+      "70584": {
+        "title": "",
+        "code": "",
+        "order": 26,
+        "checked": false
+      },
+      "70585": {
+        "title": "",
+        "code": "",
+        "order": 27,
+        "checked": false
+      },
+      "70625": {
+        "title": "",
+        "code": "",
+        "order": 28,
+        "checked": false
+      },
+      "70586": {
+        "title": "",
+        "code": "",
+        "order": 29,
+        "checked": false
+      },
+      "70587": {
+        "title": "",
+        "code": "",
+        "order": 30,
+        "checked": false
+      },
+      "70588": {
+        "title": "",
+        "code": "",
+        "order": 31,
+        "checked": false
+      },
+      "70589": {
+        "title": "",
+        "code": "",
+        "order": 32,
+        "checked": false
+      },
+      "70590": {
+        "title": "",
+        "code": "",
+        "order": 33,
+        "checked": false
+      },
+      "70591": {
+        "title": "",
+        "code": "",
+        "order": 34,
+        "checked": false
+      },
+      "70592": {
+        "title": "",
+        "code": "",
+        "order": 35,
+        "checked": false
+      },
+      "70593": {
+        "title": "",
+        "code": "",
+        "order": 36,
+        "checked": false
+      },
+      "70594": {
+        "title": "",
+        "code": "",
+        "order": 37,
+        "checked": false
+      },
+      "70595": {
+        "title": "",
+        "code": "",
+        "order": 38,
+        "checked": false
+      },
+      "70596": {
+        "title": "",
+        "code": "",
+        "order": 39,
+        "checked": false
+      },
+      "70597": {
+        "title": "",
+        "code": "",
+        "order": 40,
+        "checked": false
+      },
+      "70599": {
+        "title": "",
+        "code": "",
+        "order": 41,
+        "checked": false
+      },
+      "70600": {
+        "title": "",
+        "code": "",
+        "order": 42,
+        "checked": false
+      },
+      "70602": {
+        "title": "",
+        "code": "",
+        "order": 43,
+        "checked": false
+      },
+      "70604": {
+        "title": "",
+        "code": "",
+        "order": 44,
+        "checked": false
+      },
+      "70606": {
+        "title": "",
+        "code": "",
+        "order": 45,
+        "checked": false
+      },
+      "70607": {
+        "title": "",
+        "code": "",
+        "order": 46,
+        "checked": false
+      },
+      "70608": {
+        "title": "",
+        "code": "",
+        "order": 47,
+        "checked": false
+      },
+      "70610": {
+        "title": "",
+        "code": "",
+        "order": 48,
+        "checked": false
+      },
+      "70611": {
+        "title": "",
+        "code": "",
+        "order": 49,
+        "checked": false
+      },
+      "70613": {
+        "title": "",
+        "code": "",
+        "order": 50,
+        "checked": false
+      },
+      "70614": {
+        "title": "",
+        "code": "",
+        "order": 51,
+        "checked": false
+      },
+      "70615": {
+        "title": "",
+        "code": "",
+        "order": 52,
+        "checked": false
+      },
+      "70617": {
+        "title": "",
+        "code": "",
+        "order": 53,
+        "checked": false
+      },
+      "70618": {
+        "title": "",
+        "code": "",
+        "order": 54,
+        "checked": false
+      },
+      "70598": {
+        "title": "",
+        "code": "",
+        "order": 55,
+        "checked": false
+      },
+      "70619": {
+        "title": "",
+        "code": "",
+        "order": 56,
+        "checked": false
+      },
+      "70620": {
+        "title": "",
+        "code": "",
+        "order": 57,
+        "checked": false
+      },
+      "70621": {
+        "title": "",
+        "code": "",
+        "order": 58,
+        "checked": false
+      },
+      "70622": {
+        "title": "",
+        "code": "",
+        "order": 59,
+        "checked": false
+      },
+      "70623": {
+        "title": "",
+        "code": "",
+        "order": 60,
+        "checked": false
+      },
+      "70624": {
+        "title": "",
+        "code": "",
+        "order": 61,
+        "checked": false
+      },
+      "70626": {
+        "title": "",
+        "code": "",
+        "order": 62,
+        "checked": false
+      },
+      "70627": {
+        "title": "",
+        "code": "",
+        "order": 63,
+        "checked": false
+      },
+      "70628": {
+        "title": "",
+        "code": "",
+        "order": 64,
+        "checked": false
+      },
+      "70609": {
+        "title": "",
+        "code": "",
+        "order": 65,
+        "checked": false
+      },
+      "70629": {
+        "title": "",
+        "code": "",
+        "order": 66,
+        "checked": false
+      },
+      "70630": {
+        "title": "",
+        "code": "",
+        "order": 67,
+        "checked": false
+      },
+      "70631": {
+        "title": "",
+        "code": "",
+        "order": 68,
+        "checked": false
+      },
+      "70632": {
+        "title": "",
+        "code": "",
+        "order": 69,
+        "checked": false
+      },
+      "70633": {
+        "title": "",
+        "code": "",
+        "order": 70,
+        "checked": false
+      },
+      "70603": {
+        "title": "",
+        "code": "",
+        "order": 71,
+        "checked": false
+      },
+      "70634": {
+        "title": "",
+        "code": "",
+        "order": 72,
+        "checked": false
+      },
+      "70635": {
+        "title": "",
+        "code": "",
+        "order": 73,
+        "checked": false
+      },
+      "70636": {
+        "title": "",
+        "code": "",
+        "order": 74,
+        "checked": false
+      },
+      "70637": {
+        "title": "",
+        "code": "",
+        "order": 75,
+        "checked": false
+      },
+      "70638": {
+        "title": "",
+        "code": "",
+        "order": 76,
+        "checked": false
+      },
+      "70641": {
+        "title": "",
+        "code": "",
+        "order": 77,
+        "checked": false
+      },
+      "70616": {
+        "title": "",
+        "code": "",
+        "order": 78,
+        "checked": false
+      },
+      "70612": {
+        "title": "",
+        "code": "",
+        "order": 79,
+        "checked": false
+      },
+      "1657671": {
+        "title": "",
+        "code": "",
+        "order": 80,
+        "checked": false
+      },
+      "70662": {
+        "title": "",
+        "code": "",
+        "order": 81,
+        "checked": false
+      },
+      "70688": {
+        "title": "",
+        "code": "",
+        "order": 82,
+        "checked": false
+      },
+      "70801": {
+        "title": "",
+        "code": "",
+        "order": 83,
+        "checked": false
+      },
+      "70640": {
+        "title": "",
+        "code": "",
+        "order": 84,
+        "checked": false
+      },
+      "70802": {
+        "title": "",
+        "code": "",
+        "order": 85,
+        "checked": false
+      }
+    },
+    "indicator": false
+  },
+  "30611": {
+    "title": "",
+    "all": true,
+    "values": {
+      "1655803": {
+        "title": "",
+        "order": 0,
+        "checked": true
+      }
+    },
+    "indicator": false
+  },
+  "33560": {
+    "title": "",
+    "all": true,
+    "values": {
+      "1558883": {
+        "title": "",
+        "order": 0,
+        "checked": true
+      }
+    },
+    "indicator": false
+  }
+}
