@@ -1,14 +1,12 @@
-import json
-import re
-
-import requests
-
-from client import Client
-
-client_soup = Client()
+from client import Parser
+from writers import write_data_csv
 
 
-years = client_soup.years
-regions = client_soup.regions
+def main():
+    parser = Parser()
+    data = parser.get_result_data()
+    write_data_csv(data['results'], parser.get_years(), parser.REGION_PREFIX)
 
-data = requests.post(f)
+
+if __name__ == '__main__':
+        main()
