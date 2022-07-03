@@ -1,6 +1,6 @@
 import json
 import re
-from typing import Tuple, Any
+
 from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
