@@ -84,4 +84,4 @@ class Parser:
             'selectedFilterIds': self.get_filter_values()
         }
         response = requests.post(url=url, data=payload)
-        return response.json()
+        return response.json()['results']
