@@ -1,13 +1,20 @@
 import csv
 
+from database import DBWriter
 
-def write_file(data: list[list]) -> None:
+
+def write_in_file(data: list[list]) -> None:
     with open('out.csv', 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile, delimiter=';')
+        writer = csv.writer(csvfile, delimiter=',')
         writer.writerows(data)
 
 
-def write_data_csv(
+def write_in_db(data: list[list]) -> None:
+    db_writer = DBWriter()
+    db_writer.make_db()
+
+
+def write_data(
         regions: list[dict],
         years: tuple[str],
         region_prefix: str
@@ -28,6 +35,6 @@ def write_data_csv(
         data.append(
             [name, 'балл', *years_result]
         )
-    print(data)
 
-    write_file(data)
+    write_in_file(data)
+    write_in_db(data)
