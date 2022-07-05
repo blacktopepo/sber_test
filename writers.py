@@ -35,6 +35,5 @@ def write_data(
         data.append(
             [name, 'балл', *years_result]
         )
-    print(data)
     write_in_file(data)
     write_in_db(data)

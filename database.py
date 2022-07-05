@@ -34,9 +34,6 @@ class DBWriter:
     def make_tables(self):
         cur = self.cur
         cur.execute("""
-        DROP DATABASE IF EXISTS region_notes;
-        """)
-        cur.execute("""
         CREATE TABLE region_notes (
         id SERIAL PRIMARY KEY,
         name VARCHAR(255) NOT NULL,
@@ -46,7 +43,7 @@ class DBWriter:
         """)
 
     def insert_db(self, values):
-        self.cur.execute("""
+        self.cur.execute(f"""
         INSERT INTO region_notes (name, year, value)
         values {','.join(values)};
         """
@@ -54,7 +51,8 @@ class DBWriter:
         self.conn.commit()
 
         self.cur.execute('select * from region_notes;')
-        print(self.cur.fetchall())
+        for row in self.cur.fetchall():
+            print(row)
 
     def prepare_data(self, data):
         headers = data[0]
