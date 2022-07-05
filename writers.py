@@ -11,7 +11,7 @@ def write_in_file(data: list[list]) -> None:
 
 def write_in_db(data: list[list]) -> None:
     db_writer = DBWriter()
-    db_writer.make_db()
+    db_writer.write_data(data)
 
 
 def write_data(
@@ -35,6 +35,6 @@ def write_data(
         data.append(
             [name, 'балл', *years_result]
         )
-
+    print(data)
     write_in_file(data)
     write_in_db(data)
