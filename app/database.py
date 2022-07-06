@@ -5,16 +5,19 @@ import psycopg2
 
 class DBWriter:
     is_connect = False
+    conn = None
+    cur = None
 
     def __init__(self):
         if result := self.connect_db():
             self.conn, self.cur = result
-            self.make_tables()
+            self.prepare_table()
             self.is_connect = True
 
     def __del__(self):
-        self.cur.close()
-        self.conn.close()
+        if self.conn:
+            self.cur.close()
+            self.conn.close()
 
     @staticmethod
     def connect_db():
@@ -24,37 +27,32 @@ class DBWriter:
                 user=os.environ.get('POSTGRES_USER'),
                 password=os.environ.get('POSTGRES_PASSWORD'),
                 port=5432,
-                host="db"
+                host=os.environ.get('POSTGRES_HOST')
             )
             return conn, conn.cursor()
         except psycopg2.OperationalError:
             print("Нет соединения с БД, проверьте настройки подключения.")
 
-
-    def make_tables(self):
+    def prepare_table(self):
         cur = self.cur
         cur.execute("""
-        CREATE TABLE region_notes (
-        id SERIAL PRIMARY KEY,
+        CREATE TABLE IF NOT EXISTS region_notes (
         name VARCHAR(255) NOT NULL,
         year INTEGER NOT NULL,
         value INTEGER NOT NULL
         );
         """)
+        cur.execute("DELETE FROM region_notes;")
 
     def insert_db(self, values):
         self.cur.execute(f"""
         INSERT INTO region_notes (name, year, value)
         values {','.join(values)};
-        """
-        )
+        """)
         self.conn.commit()
 
-        self.cur.execute('select * from region_notes;')
-        for row in self.cur.fetchall():
-            print(row)
-
-    def prepare_data(self, data):
+    @staticmethod
+    def prepare_data(data):
         headers = data[0]
         _, _, *years = headers
         regions = data[1:]
